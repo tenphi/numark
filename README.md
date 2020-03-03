@@ -1,4 +1,4 @@
-# remarkable
+# numark
 
 [![Build Status](https://travis-ci.org/jonschlinkert/remarkable.svg?branch=master)](https://travis-ci.org/jonschlinkert/remarkable)
 [![NPM version](https://img.shields.io/npm/v/remarkable.svg)](https://www.npmjs.org/package/remarkable)
@@ -21,44 +21,44 @@ __[Live demo](http://jonschlinkert.github.io/remarkable/demo/)__
 **node.js:**
 
 ```bash
-npm install remarkable --save
+npm install numark --save
 ```
 
 **browser (CDN):**
 
-- [jsDeliver CDN](http://www.jsdelivr.com/#!remarkable "jsDelivr CDN")
-- [cdnjs](https://cdnjs.com/libraries/remarkable "cdnjs")
+- [jsDeliver CDN](http://www.jsdelivr.com/#!numark "jsDelivr CDN")
+- [cdnjs](https://cdnjs.com/libraries/numark "cdnjs")
 
 
 ## Usage
 
 ```js
-import { Remarkable } from 'remarkable';
+import { Remarkable } from 'numark';
 var md = new Remarkable();
 
 console.log(md.render('# Remarkable rulezz!'));
-// => <h1>Remarkable rulezz!</h1>
+// => <nu-heading level="1">Remarkable rulezz!</nu-heading>
 ```
 
 or with commonjs
 
 ```js
-const { Remarkable } = require('remarkable');
+const { Remarkable } = require('numark');
 var md = new Remarkable();
 
 console.log(md.render('# Remarkable rulezz!'));
-// => <h1>Remarkable rulezz!</h1>
+// => <nu-heading level="1">Remarkable rulezz!</nu-heading>
 ```
 
 
 If installed globally with `npm`:
 
 ```sh
-cat myfile.md | remarkable
-remarkable --file myfile.md
+cat myfile.md | numark
+numark --file myfile.md
 
 # get options
-remarkable -h
+numark -h
 ```
 
 ## Documentation
@@ -112,7 +112,7 @@ console.log(md.render('# Remarkable rulezz!'));
 Or define options via the `.set()` method:
 
 ```js
-import { Remarkable } from 'remarkable';
+import { Remarkable } from 'numark';
 
 var md = new Remarkable();
 
@@ -126,37 +126,6 @@ md.set({
 instance on the fly. If you need multiple configurations, create
 multiple instances and initialize each with a configuration that is ideal for
 that instance.
-
-
-### Presets
-
-Remarkable offers some "presets" as a convenience to quickly enable/disable
-active syntax rules and options for common use cases.
-
-#### commonmark
-
-Enable strict [CommonMark](http://commonmark.org/) mode with the `commonmark` preset:
-
-```js
-import { Remarkable } from 'remarkable';
-var md = new Remarkable('commonmark');
-```
-
-#### full
-
-Enable all available rules (but still with default options, if not set):
-
-```js
-import { Remarkable } from 'remarkable';
-var md = new Remarkable('full');
-
-// Or with options:
-var md = new Remarkable('full', {
-  html: true,
-  typographer: true
-});
-```
-
 
 ### Syntax highlighting
 

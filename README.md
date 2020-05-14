@@ -1,4 +1,6 @@
-# numark
+# numl-markdown
+
+[Original repository of "Remarkable"](https://github.com/jonschlinkert/remarkable)
 
 [![Build Status](https://travis-ci.org/jonschlinkert/remarkable.svg?branch=master)](https://travis-ci.org/jonschlinkert/remarkable)
 [![NPM version](https://img.shields.io/npm/v/remarkable.svg)](https://www.npmjs.org/package/remarkable)
@@ -21,19 +23,19 @@ __[Live demo](http://jonschlinkert.github.io/remarkable/demo/)__
 **node.js:**
 
 ```bash
-npm install numark --save
+npm install numl-markdown --save
 ```
 
 **browser (CDN):**
 
-- [jsDeliver CDN](http://www.jsdelivr.com/#!numark "jsDelivr CDN")
-- [cdnjs](https://cdnjs.com/libraries/numark "cdnjs")
+- [jsDeliver CDN](http://www.jsdelivr.com/#!numl-markdown "jsDelivr CDN")
+- [cdnjs](https://cdnjs.com/libraries/numl-markdown "cdnjs")
 
 
 ## Usage
 
 ```js
-import { Remarkable } from 'numark';
+import { Remarkable } from 'numl-markdown';
 var md = new Remarkable();
 
 console.log(md.render('# Remarkable rulezz!'));
@@ -43,7 +45,7 @@ console.log(md.render('# Remarkable rulezz!'));
 or with commonjs
 
 ```js
-const { Remarkable } = require('numark');
+const { Remarkable } = require('numl-markdown');
 var md = new Remarkable();
 
 console.log(md.render('# Remarkable rulezz!'));
@@ -54,11 +56,11 @@ console.log(md.render('# Remarkable rulezz!'));
 If installed globally with `npm`:
 
 ```sh
-cat myfile.md | numark
-numark --file myfile.md
+cat myfile.md | numl-markdown
+numl-markdown --file myfile.md
 
 # get options
-numark -h
+numl-markdown -h
 ```
 
 ## Documentation

@@ -1,8 +1,8 @@
 {
-  "name": "remarkable",
-  "description": "Markdown parser, done right. 100% Commonmark support, extensions, syntax plugins, high speed - all in one.",
+  "name": "numl-markdown",
+  "description": "Markdown parser for NuML based on \"Remarkable\" Parser.",
   "version": "2.0.0",
-  "homepage": "https://github.com/jonschlinkert/remarkable",
+  "homepage": "https://github.com/tenphi/numl-markdown",
   "maintainers": [
     "doowb <brian.woodward@sellside.com>",
     "jonschlinkert <github@sellside.com>",
@@ -39,9 +39,9 @@
     "Una Ma <maruilian11@cdnjs.com.tw> (https://github.com/maruilian11)",
     "Vitaly Puzrin <vitaly@rcdesign.ru> (http://gravatar.com/puzrin)"
   ],
-  "repository": "https://github.com/jonschlinkert/remarkable",
+  "repository": "https://github.com/tenphi/numl-markdown",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/remarkable/issues"
+    "url": "https://github.com/tenphi/numl-markdown/issues"
   },
   "license": "MIT",
   "files": [

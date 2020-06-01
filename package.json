@@ -1,7 +1,7 @@
 {
   "name": "numl-markdown",
   "description": "Markdown parser for NuML based on \"Remarkable\" Parser.",
-  "version": "2.0.11",
+  "version": "2.0.12",
   "homepage": "https://github.com/tenphi/numl-markdown",
   "maintainers": [
     "doowb <brian.woodward@sellside.com>",

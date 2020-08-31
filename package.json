@@ -1,7 +1,7 @@
 {
   "name": "numl-markdown",
   "description": "Markdown parser for NuML based on \"Remarkable\" Parser.",
-  "version": "2.0.17",
+  "version": "2.0.18",
   "homepage": "https://github.com/tenphi/numl-markdown",
   "maintainers": [
     "doowb <brian.woodward@sellside.com>",
@@ -90,6 +90,7 @@
     "esm": "^3.2.25",
     "gulp-format-md": "^0.1.10",
     "highlight.js": "^9.7.0",
+    "markdown-toc": "^1.2.0",
     "marked": "0.3.2",
     "mocha": "^6.1.4",
     "nyc": "^14.1.1",
@@ -97,7 +98,7 @@
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-terser": "^5.1.1",
-    "serve": "^11.1.0"
+    "serve": "^11.3.2"
   },
   "keywords": [
     "commonmark",
